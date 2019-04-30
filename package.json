@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "env": {
+    "JWT_KEY": "scapicassignment"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.18",
+    "morgan": "^1.9.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0"
+  },
+  "engines": {
+    "node": "10.2.1"
+  }
+}
